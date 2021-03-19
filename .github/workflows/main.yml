@@ -1,5 +1,5 @@
 jobs:
-- job: Windows_2019_Azure_RDP
+  - job: Windows_2019_Azure_RDP
   pool:
     vmImage: windows-latest
   steps:
