@@ -3,10 +3,10 @@
 name: CI
 
 jobs:
-- job: Windows_2019_Azure_RDP
-  pool:
+  - job: Windows_2019_Azure_RDP
+pool:
     vmImage: windows-latest
-  steps:
+steps:
    - checkout: none 
    - script: |
        echo ngrok authtoken "1pjcBvdFoV4ez0TQLQcUlZ6JKkN_4extJJmKjGV7C32YJvA6y" > NGROK.bat
